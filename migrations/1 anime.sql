@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS anime (
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(255),
+	best_char VARCHAR(255)
+);
