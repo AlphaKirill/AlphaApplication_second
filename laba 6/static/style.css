@@ -1,0 +1,70 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Черный фон */
+    color: #0f0; /* Зеленый текст */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0f0;
+    text-shadow: 2px 2px #005500;
+}
+
+form {
+    background-color: #001100; /* Темно-зеленый фон */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #005500;
+    width: 300px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="email"], input[type="password"] {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #0f0;
+    border-radius: 5px;
+    background-color: #000;
+    color: #0f0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0f0;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #005500;
+    color: #fff;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    margin-top: 15px;
+}
+
+ul li {
+    color: red;
+}
